@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Forms</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<form action="thanks.html" method="post">
+
+	<div>
+		<label for="name">Name</label> 
+		<input required id="name">
+	</div>
+
+	<div>
+		<label for="email">E-mail</label> 
+		<input type="email" id="email">
+	</div>
+
+	<!--
+	INPUT TYPES
+	-search
+	-tel
+	-url
+	-number
+	-password
+	-color
+	-time
+	-date
+	-file
+	-->
+
+	<div>
+		<label for="awesomeness">Level of Awesomeness!</label>
+		<input type="range" id="awesomeness" min="1" max="11" value="10">
+	</div>
+
+	<div>
+		<label for="stuff">Stuff</label>
+		<textarea id="stuff"></textarea>
+	</div>
+
+	<div>
+		<input type="checkbox" id="terms">
+		<label for="terms">Do you accept these terms?</label>
+	</div>
+
+	<div>
+		<input type="radio" id="ok" name="level-of-awesomeness">
+		<label for="ok">Okay</label>
+		<input type="radio" id="ok" name="level-of-awesomeness">
+		<label for="good">Good</label>
+		<input type="radio" id="ok" name="level-of-awesomeness">
+		<label for="amaze">Amaze-Balls!</label>
+	</div>
+
+	<div>
+		<label for="fav-color">Favourite Colour</label>
+		<select id="fav-color">
+			<option>Light Green</option>
+			<option>Medium Green</option>
+			<option>Dark Green</option>
+			<option selected>Slime Green</option>
+		</select>
+	</div>
+
+	<div>
+		<button type="submit">Send!</button>
+	</div>
+
+</form>
+
+</body>
+</html>

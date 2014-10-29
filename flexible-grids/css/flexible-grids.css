@@ -20,23 +20,12 @@ html {
 }
 /* Every CSS document must have this code! */
 
-.title {
-	color: red;
+img {
+	width: 100%;
+	display: block;
 }
 
-@media only screen and (min-width: 30em) {
-
-	.title {
-		color: green;
-		font-size: 10rem;
-	}
-
+h2 {
+	margin: 0;
 }
 
-@media only screen and (min-width: 50em) {
-
-	.title {
-		color: blue;
-	}
-	
-}
